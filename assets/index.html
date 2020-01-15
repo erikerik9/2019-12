@@ -3,143 +3,242 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="かゆいところに手が届く 何でもします 孫の手本舗">
-    <meta name="keywords" content="便利屋,北本市,孫の手本舗">
-    <title>孫の手本舗</title>
+    <meta name="description" content="孫の手本舗は埼玉県北本市近郊で、お客様の立場になってお困りごとを解決する便利屋です。かゆいところに手が届く 何でもします
+ 孫の手本舗">
+    <meta name="keywords" content="孫の手本舗,便利屋,埼玉県,北本市,便利,">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 480px)">
-    <link rel="stylesheet" href="css/reset.css">
+    <title>孫の手本舗</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> -->
+    <!-- <datepicker> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <!-- <fin datepicker> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <div class="container">
-        <h1><span class="title-sub">かゆいところに手が届く 何でもします</span> 孫の手本舗 </h1>
-    </div>
-    <!--main images-->
-    <div id="graphic">
-        <ul>
-            <li class="now change"><img src="images/graphic1.png" alt="質問内容" class="image1"></li>
-            <li class="change"><img src="images/graphic2.png" alt="ZOO LOGICALにパンダが登場！5月10日から6月29日まで" class="image2"></li>
-            <li class="change"><img src="images/graphic3.png" alt="ZOO LOGICALにパンダが登場！5月10日から6月29日まで" class="image2"></li>
-        </ul>
-    </div>
-    <!--information-->
-    <section class="info frame-width">
+<body class="pt-7">
+    <!--bootstrap Navbar↓-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-5 d-none d-sm-inline text-center pt-5 pt-sm-0"><img src="images/info-illust.png" /></div>
-                <div class="col-sm-7 align-self-center">
-                    <div class="row">
-                        <div class="col mt-4 mt-sm-0 text-center text-sm-left pb-3">お困りの際は、<strong class="yellow_line">「◯◯はできるの？」とお気軽にお尋ねください。</strong><br />
-                            お客様の「困った」を解決するのが私たちの仕事です。</div>
-                    </div>
-                    <div class="row d-inline d-sm-none text-center illust">
-                        <div class="col"><img src="images/info-illust.png" /></div>
-                    </div>
-                    <div class="row">
-                        <div class="col mt-4 text-center text-sm-left telephone"><a onclick="return gtag_report_conversion('tel:0120497154')" href="tel:0120497154"><img src="images/info-phone.png" /></a></div>
-                    </div>
-                    <div class="row">
-                        <div class="col mt-4 text-center text-sm-left d-none d-md-inline"><a href="#inquiry"><img src="images/info-inquiry.png" /></a></div>
-                        <div class="col mt-4 text-center text-sm-left d-inline d-md-none"><a href="#inquiry"><img src="images/info-inquiry-sp.png" /></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--contents of service-->
-    <div class="service-title">どんなお困りごともお任せください！</div>
-    <div class="container">
-        <div class="flat clearfix">
-            <div class="colum3 clearfix service">
-                <ul>
-                    <li>
-                        <img src="pic1" />
+            <a href="#" class="navbar-brand">
+
+                <h1><img src="images/logohand.png" alt="孫の手本舗logo"></h1>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#"><img src="images/phone-number.jpg" alt=""></a></li>
+                <li class="nav-item nav-item2 d-none d-lg-flex align-items-center"><a href="#mail-link" class="nav-link">
+                            <img src="images/mail1.jpg" alt="メールご相談">
+                        </a></li>
+            </ul>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="images/phone-number.jpg" alt=""></a>
                     </li>
-                    <li>
-                        <img src="pic2" />
-                    </li>
-                    <li>
-                        <img src="pic3" />
-                    </li>
-                    <li>
-                        <img src="pic4" />
-                    </li>
-                    <li>
-                        <img src="pic5" />
-                    </li>
-                    <li>
-                        <img src="pic6" />
-                    </li>
-                    <li>
-                        <img src="pic7" />
-                    </li>
-                    <li>
-                        <img src="pic8" />
-                    </li>
-                    <li class="pc">
-                        <img src="pic9" />
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+                       <!--   <a href="#mail-link" class="nav-link">
+                            <img src="images/mail1.jpg" alt="メールご相談">
+                        </a>
+
                     </li>
                 </ul>
-            </div>
+
+            </div> -->
         </div>
-    </div>
-    <!--flow of service-->
-    <section class="flow pt-4">
-        <h3 class="px-4"><img class="d-none d-md-inline" src="images/flow-title.png" alt="お問い合わせから作業完了まで" /><img class="d-inline d-md-none" src="images/flow-sp-title.png" alt="お問い合わせから作業完了まで" /></h3>
-        <div class="flow-text text-center px-4 mt-4 pb-2 d-none d-md-block"><img src="images/flow-text.png" alt="お問い合わせからお見積りまで完全無料です。お見積り後、ご依頼されなかった場合も費用はかかりません" /></div>
-        <div class="flow-text text-center px-4 mt-4 pb-2 d-block d-md-none"><img src="images/flow-sp-text.png" alt="お問い合わせからお見積りまで完全無料です。お見積り後、ご依頼されなかった場合も費用はかかりません" /></div>
-        <div class="flow-detail mt-4">
-            <div class="container-fluid">
-                <div class="row d-flex justify-content-around">
-                    <div class="col-sm flow-bg m-3 text-center">
-                        <img src="images/flow-icon1.png" alt="お問い合わせ 0120-497-154 またはお問い合わせフォームよりお問い合わせください" />
-                        <div class="flow-next-pc"><img class="flow-pointer" src="images/flow-pointer.png" /></div>
-                        <div class="flow-next-sp"><img class="flow-pointer" src="images/flow-pointer2.png" /></div>
-                    </div>
-                    <div class="col-sm flow-bg m-3 text-center">
-                        <img src="images/flow-icon2.png" alt="お見積り 事前にお見積り金額をお伝えします。" />
-                        <div class="flow-next-pc"><img class="flow-pointer" src="images/flow-pointer.png" /></div>
-                        <div class="flow-next-sp"><img class="flow-pointer" src="images/flow-pointer2.png" /></div>
-                    </div>
-                    <div class="col-sm flow-bg m-3 text-center">
-                        <img src="images/flow-icon3.png" alt="ご依頼 ご依頼いただける場合はその旨お申しつけください。" />
-                        <div class="flow-next-pc"><img class="flow-pointer" src="images/flow-pointer.png" /></div>
-                        <div class="flow-next-sp"><img class="flow-pointer" src="images/flow-pointer2.png" /></div>
-                    </div>
-                    <div class="col-sm flow-bg m-3 text-center">
-                        <img src="images/flow-icon4.png" alt="作業 作業を行います。作業完了後に料金をお支払いください。" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--information-->
-    <section class="info frame-width">
+    </nav>
+    <!--fin navbar-->
+    <!-- ↓ carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-5 d-none d-sm-inline text-center pt-5 pt-sm-0"><img src="images/info-illust.png" /></div>
-                <div class="col-sm-7 align-self-center">
-                    <div class="row">
-                        <div class="col mt-4 mt-sm-0 text-center text-sm-left pb-3">お困りの際は、<strong class="yellow_line">「◯◯はできるの？」とお気軽にお尋ねください。</strong><br />
-                            お客様の「困った」を解決するのが私たちの仕事です。</div>
-                    </div>
-                    <div class="row d-inline d-sm-none text-center illust">
-                        <div class="col"><img src="images/info-illust.png" /></div>
-                    </div>
-                    <div class="row">
-                        <div class="col mt-4 text-center text-sm-left telephone"><a onclick="return gtag_report_conversion('tel:0120497154')" href="tel:0120497154"><img src="images/info-phone.png" /></a></div>
-                    </div>
-                    <div class="row">
-                        <div class="col mt-4 text-center text-sm-left d-none d-md-inline"><a href="#inquiry"><img src="images/info-inquiry.png" /></a></div>
-                        <div class="col mt-4 text-center text-sm-left d-inline d-md-none"><a href="#inquiry"><img src="images/info-inquiry-sp.png" /></a></div>
-                    </div>
+    <!--     <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol> -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-none d-sm-block"><img src="images/main-pic1.jpg" class="d-block w-100 h-100" alt="hero1"></div>
+                <div class="d-sm-none"><img src="images/main-pic1.jpg" class="d-block w-100 h-100" alt="hero1"></div>
+            </div>
+<!--carousel2,3-->
+</div>
+        </div>
+
+    </div>
+    <!-- fin carousel-->
+    <!--ここから見出し-->
+    <section class="container topics">
+        <div class="row">
+            <div class="col-lg col-xs-12 mb-5">
+                <img src="images/v-cleaner.jpg" alt="img1" class="img-thumbnail d-block mx-auto">
+                <h2 class="topics__title">掃除</h2>
+                <p class="price">9,999円~</p>
+                <p class="topics__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            </div>
+            <div class="col-lg col-xs-12 mb-5">
+                <img src="images/wash.jpg" alt="img2" class="img-thumbnail d-block mx-auto">
+                <h2 class="topics__title">洗濯</h2>
+                <p class="price">9,999円~</p>
+                <p class="topics__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            </div>
+            <div class="col-lg col-xs-12 mb-5">
+                <img src="images/shopping.jpg" alt="img3" class="img-thumbnail d-block mx-auto">
+                <h2 class="topics__title">お買い物</h2>
+                <p class="price">9,999円~</p>
+                <p class="topics__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
+                <div class="row">
+<div class="col-lg col-xs-12 mb-5">
+                <img src="images/repair.jpg" alt="img1" class="img-thumbnail d-block mx-auto">
+                <h2 class="topics__title">修理</h2>
+                <p class="price">9,999円~</p>
+                <p class="topics__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            </div>
+            <div class="col-lg col-xs-12 mb-5">
+                <img src="images/diy.jpeg" alt="img2" class="img-thumbnail d-block mx-auto">
+                <h2 class="topics__title">日曜大工</h2>
+                <p class="price">9,999円~</p>
+                <p class="topics__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            </div>
+            <div class="col-lg col-xs-12 mb-5">
+                <img src="images/dog.jpg" alt="img3" class="img-thumbnail d-block mx-auto">
+                <h2 class="topics__title">雑用</h2>
+                <p class="price">9,999円~</p>
+                <p class="topics__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
         </div>
+        <div class="row">
+<div class="col-lg col-xs-12 mb-5">
+                <img src="images/pc-mac.jpg" alt="img1" class="img-thumbnail d-block mx-auto">
+                <h2 class="topics__title">PC・携帯操作</h2>
+                <p class="price">9,999円~</p>
+                <p class="topics__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            </div>
+            <div class="col-lg col-xs-12 mb-5">
+                <img src="images/baby.jpg" alt="img2" class="img-thumbnail d-block mx-auto">
+                <h2 class="topics__title">ベビーシッター</h2>
+                <p class="price">9,999円~</p>
+                <p class="topics__detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            </div>
+            <div class="col-lg col-xs-12 mb-5">
+                <img src="images/smile.jpg" alt="img3" class="img-thumbnail d-block mx-auto">
+                <h2 class="topics__title">その他のお困り事もお問い合わせ下さい！</h2>
+
+                <p class="topics__detail"> </p>
+            </div>
+        </div>
+
     </section>
-    <script src="js/slideshow.js"></script>
+    <!--banner-->
+  <!--  <section class="container banner">
+        <div class="row">
+            <div class="col-lg-3 col-xs-12"><img src="images/img4.jpg" alt="img4" class="img-thumbnail rounded w-100 mb-4"></div>
+            <div class="col-lg-3 col-xs-12"><img src="images/img5.jpg" alt="img5" class="img-thumbnaicharacterl rounded w-100 mb-4"></div>
+            <div class="col-lg-3 col-xs-12"><img src="images/img6.jpg" alt="img6" class="img-thumbnail rounded w-100 mb-4"></div>
+            <div class="col-lg-3 col-xs-12"><img src="images/img7.jpg" alt="img7" class="img-thumbnail rounded w-100 mb-4"></div>
+        </div>
+    </section> -->
+    <section class="container landing">
+         <img src="images/welcome-l.jpg" class="landing-pic" alt="welcome" width="500px" height="700px">
+        <p class="landing-character"><br><br><span class="shopname">孫の手本舗</span>は<br>埼玉県北本市近郊で、お客様の立場になってお困りごとを解決する便利屋です。<br><br>どんなことでも、お気軽に<span class="can">「○○はできるの？」</span>とお問い合わせ下さい。</p>
+                        <p class="catchphrase">かゆいところに手が届く<br><span class="catchphrase1">何でもします</span><br><span class="catchphrase2">孫の手本舗</p></span>
+        <p class="landing-phonenumber"><img src="images/phone-number1.jpg" alt="電話番号" width="550px" height="135px"></p>
+
+
+
+</div>
+    </section>
+
+        <div>
+<!--ここからmail form-->
+<!--testform-->
+<a name="mail-link"></a>
+<section class="inquiry pt-5" id="inquiry">
+    <a name="mail-link"></a>
+                <form>
+
+                    <h3 class="text-center p-4">≪ お問い合わせフォーム ≫</h3>
+
+
+                <div class="container py-5 inquiry-bg">
+                    <div class="input-area">
+                    <div class="row mt-4 d-flex align-items-center">
+                        <div class="col text-left text-nowrap"><div class="row no-gutters"><div class="col-auto col-sm text-right"><span class="need rounded mr-2">必須</span></div><div class="col-auto col-sm"><div class="inquiry-form-title">お名前</div></div></div></div>
+                        <div class="mt-2 mt-sm-0 col-sm-8 col-md-9"><input placeholder="例：佐藤太郎" required name="#" type="text" /></div>
+                    </div>
+                    <div class="row mt-4 d-flex align-items-center">
+                        <div class="col text-left text-nowrap"><div class="row no-gutters"><div class="col-auto col-sm text-right"><span class="need rounded mr-2">必須</span></div><div class="col-auto col-sm"><div class="inquiry-form-title">ふりがな</div></div></div></div>
+                        <div class="mt-2 mt-sm-0 col-sm-8 col-md-9"><input placeholder="例：さとうたろう" required name="#" type="text" /></div>
+                    </div>
+
+                    <div class="row mt-4 d-flex align-items-center">
+                        <div class="col text-left text-nowrap"><div class="row no-gutters"><div class="col-auto col-sm text-right"></div><div class="col-auto col-sm"><div class="inquiry-form-title">ご希望の日時</div></div></div></div>
+                        <div class="mt-2 mt-sm-0 col-sm-8 col-md-9"><input placeholder="例：7/12の午前中" required name="#" type="text" /></div>
+                    </div>
+                    <div class="row mt-4 d-flex align-items-center">
+                        <div class="col text-left text-nowrap"><div class="row no-gutters"><div class="col-auto col-sm text-right"><span class="need rounded mr-2">必須</span></div><div class="col-auto col-sm"><div class="inquiry-form-title">電話番号</div></div></div></div>
+                        <div class="mt-2 mt-sm-0 col-sm-8 col-md-9"><input placeholder="例：048-123-4567" required name="#" type="text" /></div>
+                    </div>
+                    <div class="row mt-4 d-flex align-items-center">
+                        <div class="col text-left text-nowrap"><div class="row no-gutters"><div class="col-auto col-sm text-right"></div><div class="col-auto col-sm"><div class="inquiry-form-title">メールアドレス</div></div></div></div>
+                        <div class="mt-2 mt-sm-0 col-sm-8 col-md-9"><input placeholder="例：satou@abc.com" required name="#" type="text" /></div>
+                    </div>
+                    <div class="row mt-4 d-flex align-items-center">
+                        <div class="col text-left text-nowrap"><div class="row no-gutters"><div class="col-auto col-sm text-right align-self-center"><span class="need rounded mr-2">必須</span></div><div class="col-auto col-sm"><div class="inquiry-form-title">ご希望の<br class="d-none d-sm-inline" />連絡方法</div></div></div></div>
+                        <div class="mt-2 mt-sm-0 col-sm-8 col-md-9">
+                            <select id="choice" required name="#">
+                                <option value="">選択してください</option>
+                                <option value="電話">電話</option>
+                                <option value="メール">メール</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col text-left text-nowrap"><div class="row no-gutters"><div class="col-auto col-sm text-right"></div><div class="col-auto col-sm"><div class="inquiry-form-title">自由記入欄</div></div></div></div>
+                        <div class="mt-2 mt-sm-0 col-sm-8 col-md-9"><textarea placeholder="ご希望など、自由に記入してください。" name="#"></textarea>
+                            </div>
+                    </div>
+                    </div>
+
+                        <div class="row">
+                            <div class="col text-center">
+                                <input class="inquiry-submit" type="button" onClick="postToGoogle()" value="送信する">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <footer class="text-muted py-5 mt-5 bg-dark">
+            <div class="container">
+                <p class="float-right">
+                    <a href="#">トップへ</a>
+                </p>
+                <div class="copyright">
+                <small>Copyright &copy; 2020 孫の手本舗 All rights Reserved.  </small>
+            </div>
+            </div>
+        </footer>
+        <!--bootstrap bs+tab-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"> </script>
 </body>
+<!--fin bootstrap bs+tab-->
 
 </html>
